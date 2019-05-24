@@ -13,12 +13,7 @@ knit        : slidify::knit2slides
 
 ## This project presents an interactive display that plots a gamma probability density function. 
 
-```{r, echo = FALSE}
-alpha <- 2
-tau <- 3
-plot(0, 0, xlim = c(0, 9), ylim = c(0, 0.25), type = "n", xlab = "x", ylab = "f(x)")
-curve(dgamma(x, shape = alpha, scale = tau/alpha), from = 0, to = 3*tau, col = "red", lwd=2, add = TRUE)
-```
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 ---
 
